@@ -8,7 +8,7 @@ Just download the script via
 
 and add it to the bottom of crontab with `sudo crontab -e` like this:
 
-    @reboot screen -dmSL exodus_update -Logfile /root/logs/exodus_update.log bash /root/exodus_update.sh
+    00 /3* * * screen -dmSL exodus_update -Logfile /root/logs/exodus_update.log bash /root/exodus_update.sh
    
 this also has the large benefit of logging  the scripts output to `/root/logs`
 
