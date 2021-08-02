@@ -4,7 +4,7 @@ This is just a very simple script that will automatically download the newest **
 # Usage 
 Just download the script via
 
-    sudo git clone MOHMOBILE/exodus-updater /root/
+    wget -O /root/exodus_update.sh https://raw.githubusercontent.com/MOHMOBILE/exodus-updater/main/exodus_update.sh
 
 and add it to the bottom of crontab with `sudo crontab -e` like this:
 
