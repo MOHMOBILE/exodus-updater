@@ -1,5 +1,5 @@
 ﻿# exodus-updater
-This is just a very simple script that will automatically download the newest version of the wallet "exodus" and download it, as the wallet itself won't provide a possibility to update it.
+This is just a very simple script that will automatically download the newest **Linux-x64** / **Ubuntu** version of the wallet "exodus" and download it, as the wallet itself won't provide a possibility to update it.
 
 # Usage 
 Just download the script via
