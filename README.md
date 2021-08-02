@@ -12,5 +12,5 @@ and add it to the bottom of crontab with `sudo crontab -e` like this:
    
 this also has the large benefit of logging  the scripts output to `/root/logs`
 
-And yes, you should never run a script as root, but in this case it is nessesary due to the installation of a program.
+And yes, you should never run a script as root, but in this case it is nessesary due to the installation of the wallet.
 
