@@ -5,7 +5,7 @@
 
 #!/bin/bash
 
-installedversion=$(su -c "exodus --version" $(id -nu 1000) | sed 's/\.//g')
+installedversion=$(su -c "exodus --version" $(id -nu 1000))
 
 for i in {0..30}
 do
