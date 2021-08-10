@@ -9,7 +9,7 @@ installedversion=$(su -c "exodus --version" $(id -nu 1000))
 
 for i in {0..30}
 do
-    checkversion=$(date -d "now - $i days" "+%y.%-m.%d")
+    checkversion=$(date -d "now - $i days" "+%y.%-m.%-d")
     curl -fs https://downloads.exodus.com/releases/exodus-linux-x64-$checkversion.deb
     if [[ $? == 23 ]]
       then
