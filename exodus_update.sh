@@ -17,7 +17,7 @@ do
     fi
 done
 
-dlversion=$(date -d "now - ${TempArray[1]} days" "+%y.%-m.%d")
+dlversion=$(date -d "now - ${TempArray[1]} days" "+%y.%-m.%-d")
 
 if [[ $dlversion == $installedversion ]]
   then
